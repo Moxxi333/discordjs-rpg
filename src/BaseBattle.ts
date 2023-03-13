@@ -48,7 +48,7 @@ export abstract class BaseBattle {
     if (progress < 0) progress = 0;
 
     const maxFill = 20;
-    const fill = "█";
+    const fill = "❤️";
     const path = " ";
     const fillProgress = Math.round((progress * maxFill) / maxProgress);
 
